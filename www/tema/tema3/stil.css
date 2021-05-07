@@ -1,0 +1,347 @@
+body {
+  font-size: 12px; 
+  margin: 0px; 
+  color: #3a3a3a; 
+  font-family: Tahoma, Verdana, arial, Helvetica, sans-serif; 
+  background-image:url(resim/fon.jpg);
+}
+
+a {
+	color: #515128; 
+  text-decoration: none;
+	cursor:pointer;
+}
+a:visited {
+	color: #515128; 
+  text-decoration: none;
+	cursor:pointer;
+}
+a:hover {
+	color:#FF9900; 
+  text-decoration: none;
+	cursor:pointer;
+}
+
+hr {
+	color: #000000; 
+  height: 1px
+}
+p {
+  font-size: 11px
+}
+
+td {
+	font-size: 11px
+}
+h1 {
+  font-size: 20px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  color:#C8C891;	 
+}
+
+.anatablo {
+  border-left:solid 1px; 
+	border-right:solid 1px;
+	width:760px
+}
+
+.ana {
+	border-top: #000000 1px solid; 
+	border-bottom: #000000 1px solid
+}
+
+.ust {
+  background-color: #c4c4c4
+}
+
+.ustmenu {
+	padding-right: 5px; 
+  border-top: #777777 1px solid; 
+  padding-left: 5px; 
+  padding-bottom: 5px; color: #c0c0c0; 
+  padding-top: 5px; 
+  border-bottom: #777777 1px solid; 
+  background-color: #2e2e2e
+}
+.ustmenu a {
+	color: #efefef
+}
+.ustmenu a:visited {
+	color: #efefef
+}
+.ustmenu a:hover {
+	color: #ff8040
+}
+
+.ortaalan {
+	background-color: #f5f5fd
+}
+
+
+.solmenu {
+	background-color:#cccccc
+}
+
+.solmenubaslik {		 
+	font-weight: bold; 
+	font-size: 12px; 
+	background-image: url(resim/basb.jpg); 	 
+	color: #E7E7CF;	
+	border-bottom: #515128 1px solid;	
+}
+
+.menu a {
+	border:1px solid #515128;	 
+	color:#444422;
+	display: block;
+	margin-bottom:1px;	
+	border-left:8px solid #515128;
+	padding:1px 1px 1px 4px;				
+	background-image:url(resim/but2.jpg);
+}
+.menu a:hover {
+	border:1px solid #515128;
+	border-left:8px solid #FFCC00;	 
+  color:#E7E7CF;	
+  background-image:url(resim/butk.jpg);
+		
+}
+
+.tablolar {
+background-color: #ffffff;
+border:none
+}
+.tablobaslik {
+color: #555525;
+background-color:#E7E7CF
+}
+
+.renk1 {
+background-color:#DFDFBF
+}
+.renk2 {
+background-color:#C9C89B
+}
+
+.altbolum {  
+  color:#E0E0C2;     
+  background-color:#3C3C1E;
+  border-top:2px solid #FF9900;
+  border-left:1px solid #515128;
+  border-right:1px solid #515128;
+  padding:5px;  
+}
+
+.altbolum a {
+	color:#808040; 
+  text-decoration: none
+}
+.altbolum a:visited {
+	color: #808040; 
+  text-decoration: none
+}
+.altbolum a:hover {
+	color:#FF9900; 
+  text-decoration: none
+}
+
+form {
+	font-size: 11px; font-family: Tahoma,Verdana,arial,Helvetica,sans-serif
+}
+
+textarea {
+	font-size: 11px; 
+	color: #515128;
+	font-weight:normal;
+	background-image:url(resim/text.jpg); 
+	font-family: Tahoma,Verdana,arial,Helvetica,sans-serif
+}
+input {
+  color:#515128;
+  background-image:url(resim/input.jpg);
+  border: 1px solid #515128; 
+  font-size: 11px; 
+  font-weight: normal; 
+	font-family: Tahoma,Verdana,arial,Helvetica,sans-serif;
+	padding:2px;
+}
+input2 {
+  color:#000000;
+  border: 1px solid #ff0000; 
+  font-size: 11PX; 
+  font-weight: normal; 
+	font-family: Tahoma,Verdana,arial,Helvetica,sans-serif;
+	padding-left:5px;
+	margin-top:1px;
+}
+select {
+	font-size: 11px;
+	border: 1px solid #660000;
+	background-color:#DADAB6; 
+	color:#515128;	
+	font-family: Tahoma,Verdana,arial,Helvetica,sans-serif
+}
+
+.mesaj1 {
+  padding:15px; 
+	border:solid 1px #515128
+}
+
+.hata {
+  width:80%;
+	font-size:12px;
+	color:#DD0000;
+	height:auto;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:#FFFFFF;
+	position:relative;
+	text-align: center;
+	border:1px solid #000066;
+	z-index:auto
+}
+.normalmesaj {
+  width:80%;
+	font-size:12px;
+	color:#008000;
+	height:auto;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:#FFFFFF;
+	position:relative;
+	text-align: center;
+	border:1px solid #000066;
+	z-index:auto
+}
+.hata_mesaj {
+	font-size:12px;
+	font-weight:bold;
+	width:400px;
+	height:auto;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding-bottom:10px;
+	background-color:#FFFFFF;
+	position:relative;
+	text-align: center;
+	border:1px solid #000066;
+	z-index:auto
+}
+
+
+#hizliMesaj {
+  background-color:#e3e3e3;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-top-color: #D4D0C8;
+	border-bottom-color: #FFFFFF;
+
+	text-align:left;
+	overflow:auto;
+	color:#000000;
+}
+
+.yaziresim {
+border:1px solid #515128;
+padding:5px;
+margin:5px;
+}
+
+.ana_div {
+	font-size:9px;
+	width:215px;
+	max-height:400px;
+	background-color:#E7E7CF;
+	position:absolute;
+	margin-top: 0px;
+	margin-left:0px;
+	text-align: left;
+	z-index:1000;
+	border: 2px solid;
+	border-color:#515128;	
+	padding: 4px;
+	margin: 0px;
+	display:none;
+}
+
+.icerik_div
+{
+  width:200px;
+	min-height:90px;
+	max-height:380px;
+  text-align:left;
+	overflow:auto;
+}
+
+.resim_kenarlik1 {
+border: 1px solid #515128;
+padding-top:5px;
+}
+.resim_kenarlik2 {
+border: 1px solid #FF9900;
+padding-top:5px;
+}
+.albumresim {
+border:1px solid #515128;
+padding:3px;
+}
+
+#code 
+{
+  background:#E5E5E5;
+	width:100%;
+	height:auto;
+}
+.border {
+border:1px solid #515128;
+padding:3px
+}
+
+.enter {
+border:1px solid #515128;
+background-color:#F1F1E2;
+margin:5px;
+}
+
+<!-- HTML Duzenleyici -->
+.tablo {
+  border-width:2px;
+	border-style:solid;
+	border-color:#999999
+}
+.td {
+  border-width:1px;
+	border-style:solid;
+	border-color:#999999
+}
+
+.toolbar3   
+{ 
+  border: 1px solid #666666; 
+	height: 24px; 
+	background-image: url(../../editor/background_silver.jpg); 
+	border-bottom: 0px; 
+	border-top: 1px;
+}
+
+.toolbar2   { border: 1px solid #666666; height: 24px; background-image: url(../../editor/background_silver.jpg); border-bottom: 0px; border-top: 0px }
+
+
+.button     { width: 20px; height: 20px; border: 0px solid transparent; margin: 1px; padding: 0px; background: transparent; }
+.buttonOver { width: 20px; height: 20px; border: 1px solid #999999; margin: 0; padding: 0px; }
+
+.dropdown          { background-color: #FFFFFF; border: 1px solid #333333; height: 140px; overflow: auto; padding: 1px; }
+button.mouseOver   { background-color: #EEEEEE; border: 1px solid #CCCCCC; padding: 3px; cursor: default; text-align: left;}
+button.mouseOut    { background-color: #FFFFFF; border: 1px solid #FFFFFF; padding: 3px; cursor: default; text-align: left;}
+
+.on   { background-color: #EEEEEE; border: 1px solid #CCCCCC; padding: 6px; width: 140px; cursor: default; height: 5px;}
+.off  { background-color: #FFFFFF; border: 1px solid #FFFFFF; padding: 6px; width: 140px; cursor: default; height: 5px;}
+
+/* Select Shading/Border Color */
+.selectColorTable  { border: 1px solid #7E7E81; background-color: #F7F7F7; padding: 1px; }
+.selectColorBorder { border: 1px solid #F7F7F7; }
+.selectColorOn     { border: 1px solid #999999; background-color: #CCCCCC; }
+.selectColorOff    { border: 1px solid #F7F7F7; background-color: #F7F7F7; }
+.selectColorBox    { border: 1px solid #FFFFFF; font-size: 1px; height: 13px; width: 13px; }

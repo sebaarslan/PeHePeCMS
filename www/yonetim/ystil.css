@@ -1,0 +1,79 @@
+body,td,div {
+
+  font-family : tahoma, verdana, arial, sans-serif;;
+  color : #000000;
+  font-size : 11px;
+}
+
+
+Font#font_1 { font-size:9px }
+Font#font_2 { font-size:10px }
+Font#font_3 { font-size:12px }
+Font#font_4 { font-size:15px }
+Font#font_5 { font-size:25px }
+
+a:link {
+	color: #000080;
+	text-decoration: none
+}
+
+a:hover {
+	color: #2E2EB2;
+	text-decoration: none
+}
+a:visited {
+  color: none; 
+  text-decoration: none
+}
+
+
+.input 
+{ 
+  background-color: #ffffff; 
+  color: #2E2EB2; 
+  border: 1px solid #2d4488; 
+  font-size: 11px; 
+  font-weight: bold; 
+  font-family: verdana,tahoma,arial 
+}
+
+.select 
+{ 
+  background-color: #ffffff; 
+  color: #2E2EB2; 
+  border: 1px solid #2d4488; 
+  font-size: 11px; 
+  font-weight: bold; 
+  font-family: verdana,tahoma,arial 
+}
+
+.border_4{
+	border: 1px solid #112b94;	
+}
+
+.hataMesaj {
+  background-color:#E1E1E1;
+  border-style:dotted;
+	border-width:1px;
+	border-color:#666666;
+	color:#ff0000;
+	text-align:center;
+  width:90%;
+	height:30px;
+	margin-top:50px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.normalMesaj {
+  background-color:#E1E1E1;
+  border-style:dotted;
+	border-width:1px;
+	border-color:#666666;
+	color:#008000;
+	text-align:center;
+  width:90%;
+	height:30px;
+	margin-top:50px;
+	padding-top:20px;
+	padding-bottom:20px;
+}

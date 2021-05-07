@@ -1,0 +1,23 @@
+﻿Tema için buraya bir klasör açınız.
+Açtığnız klasöre index.tpl dosyası oluşturup, tasarımınızı bu dosyaya yapınız.
+Bu temanızı Yönetim Panelinde ayarlardan seçebilirsiniz.
+
+Her bölüm BLOK şeklinde oluşturulmuştur.
+Örneğin Üye İşlem Bölümü
+<!-- BEGIN UYE_ISLEM_BLOK -->
+
+<!-- END UYE_ISLEM_BLOK -->
+
+
+Menüler İçin Ya Tüm Menüleri Bir Blok İçinde veya Tek Tek Sayfaya Yazdırabilirsiniz.
+Menüler 2 Gruba Ayrılmıştır. Menü1 Üst Menüdür. Menü 2 Alt Menüdür.
+Örneğin Tüm Menü 1 ler İçin
+<!-- BEGIN MENU1_BLOK -->
+<a href="{MENU1_ADRES}" target="{MENU1_HEDEF}"><img src="{SITE_TEMA}/resimli_menu/{MENU1_RESIM}"  width="29" height="29" border="0" /><br /><b>{MENU1_ADI}</b></a>
+<!-- END MENU1_BLOK -->
+veya Menü1 den 1 Tane Menü Yazdırmak İçin Yönetim Panelinden Tanımladığınız Menü Anahtarını Kullanınız
+Örneğin Kayıt Menüsünü Yazdırmak İçin kayit Anahtarını Büyük Harf İle Yazıyoruz
+<!-- BEGIN MENU1_KAYIT_BLOK -->
+{MENU1_ADRES_KAYIT} 
+<!-- END MENU1_KAYIT_BLOK -->
+İstemediğiniz bir bölüm olursa bu bloklarI kaldırmanız yeterli.
